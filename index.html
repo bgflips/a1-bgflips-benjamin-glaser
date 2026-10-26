@@ -21,21 +21,21 @@
       .attr("y", 300)
       .attr("width", 600)
       .attr("height", 300)
-      .attr("fill", "fe8714");
+      .attr("fill", "#fe8714");
 
     svg.append("rect") // ground
       .attr("x", 0)
       .attr("y", 0)
       .attr("width", 600)
       .attr("height", 300)
-      .attr("fill", "3f9b0b");
+      .attr("fill", "#3f9b0b");
     
     // Add Circles
     const sun = svg.append("circle") // sun
       .attr("cx", 450)
       .attr("cy", 100)
       .attr("r", 50)
-      .attr("fill", "ef5200");
+      .attr("fill", "#ef5200");
     
     // Add Lines
     svg.append("line") // fence
@@ -43,17 +43,17 @@
       .attr("y1", 300)
       .attr("x2", 600)
       .attr("y2", 300)
-      .attr("stroke", "")
+      .attr("stroke", "#ffffff")
       .attr("stroke-width", 5);
     
     // Add Polygons
     svg.append("polygon") // mountain
       .attr("points", "200,300 500,300 300,400 400,400")
-      .attr("fill", "3e424b")
+      .attr("fill", "#3e424b")
 
     svg.append("polygon") // snowcap
       .attr("points", "300,400 400,400 350,500")
-      .attr("fill", "ffffff")
+      .attr("fill", "#ffffff")
   </script>
 </body>
 </html>
