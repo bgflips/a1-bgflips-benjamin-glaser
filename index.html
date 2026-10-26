@@ -18,16 +18,16 @@
     // Add Rectangles
     svg.append("rect") // sky
       .attr("x", 0)
-      .attr("y", 300)
+      .attr("y", 0)
       .attr("width", 600)
       .attr("height", 300)
       .attr("fill", "#fe8714");
 
     svg.append("rect") // ground
       .attr("x", 0)
-      .attr("y", 0)
+      .attr("y", 300)
       .attr("width", 600)
-      .attr("height", 300)
+      .attr("height", 100)
       .attr("fill", "#3f9b0b");
     
     // Add Circles
@@ -48,11 +48,11 @@
     
     // Add Polygons
     svg.append("polygon") // mountain
-      .attr("points", "200,300 500,300 300,400 400,400")
+      .attr("points", "200,300 500,300 400,200 300,200")
       .attr("fill", "#3e424b")
 
     svg.append("polygon") // snowcap
-      .attr("points", "300,400 400,400 350,500")
+      .attr("points", "400,200 300,200 350,100")
       .attr("fill", "#ffffff")
   </script>
 </body>
