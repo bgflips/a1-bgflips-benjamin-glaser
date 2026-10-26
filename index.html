@@ -38,7 +38,7 @@
       .attr("fill", "#ef5200");
     
     // Add Lines
-    svg.append("line") // fence
+    svg.append("line") // horizon line
       .attr("x1", 0)
       .attr("y1", 300)
       .attr("x2", 600)
@@ -48,12 +48,12 @@
     
     // Add Polygons
     svg.append("polygon") // mountain
-      .attr("points", "200,300 500,300 400,200 300,200")
-      .attr("fill", "#3e424b")
+      .attr("points", "200,300 600,300 400,300 200,300")
+      .attr("fill", "#3e424b");
 
     svg.append("polygon") // snowcap
       .attr("points", "400,200 300,200 350,100")
-      .attr("fill", "#ffffff")
+      .attr("fill", "#ffffff");
   </script>
 </body>
 </html>
