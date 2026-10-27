@@ -35,7 +35,14 @@
       .attr("cx", 450)
       .attr("cy", 100)
       .attr("r", 50)
-      .attr("fill", "#ef5200");
+      .attr("fill", "#ef5200")
+      .style("cursor", "pointer")
+      .on("mouseover", function() {
+        d3.select(this).attr("fill", "ff0000");
+      })
+      .on("mouseout", function() {
+        d3.select(this).attr("fill", "ef5200")
+      });
     
     // Add Lines
     svg.append("line") // horizon line
@@ -43,8 +50,8 @@
       .attr("y1", 300)
       .attr("x2", 600)
       .attr("y2", 300)
-      .attr("stroke", "#ffffff")
-      .attr("stroke-width", 5);
+      .attr("stroke", "#000000")
+      .attr("stroke-width", 1);
     
     // Add Polygons
     svg.append("polygon") // mountain
