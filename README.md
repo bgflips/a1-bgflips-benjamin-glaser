@@ -20,7 +20,7 @@ Project Description
 **Effects**
 * Hover Effect: When you hover over the sun, it changes color and gets slightly bigger.
 
-<img width="1220" height="824" alt="a1-screenshot-benglaser" src="https://github.com/user-attachments/assets/73f3bbb5-c054-4bd0-94d9-26e98828bc0d" />
+<img width="1222" height="822" alt="a1-screenshot-benglaser" src="https://github.com/user-attachments/assets/46199672-1eb2-431e-a138-0902305fe9a5" />
 
 Resources
 ---
