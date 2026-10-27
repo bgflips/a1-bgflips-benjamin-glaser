@@ -38,10 +38,12 @@
       .attr("fill", "#ef5200")
       .style("cursor", "pointer")
       .on("mouseover", function() {
-        d3.select(this).attr("fill", "#ffff00");
+        d3.select(this).attr("fill", "#ffff00")
+          .attr("r", 55);
       })
       .on("mouseout", function() {
         d3.select(this).attr("fill", "#ef5200")
+          .attr("r", 50);
       });
     
     // Add Lines
